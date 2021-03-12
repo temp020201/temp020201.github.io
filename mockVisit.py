@@ -18,8 +18,8 @@ headers = {
 }
 request = urllib.request.Request(url=url,headers=headers)
 response = urllib.request.urlopen(request)
-#Êä³öËùÓĞ
+#è¾“å‡ºæ‰€æœ‰
 # print(response.read().decode('gbk'))
-#½«ÄÚÈİĞ´ÈëÎÄ¼şÖĞ
+#å°†å†…å®¹å†™å…¥æ–‡ä»¶ä¸­
 with open('test.pdf','wb') as fp:
  fp.write(response.read())
