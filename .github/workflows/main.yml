@@ -8,7 +8,7 @@ on:
 
 jobs:
   task:
-    name: DyTool
+    name: mockVisitBB
     runs-on: windows-latest
 
     steps:
